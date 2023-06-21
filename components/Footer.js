@@ -81,7 +81,7 @@ export default function Footer({ copyrightText }) {
   return (
     <footer className="py-16 flex flex-col items-center">
       <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
-        {copyrightText}
+        All rights reserved by <a title="Hyaena Digital" href="https://hyaena.co.uk/">Hyaena Digital</a>
       </p>
       <ThemeSwitcher />
     </footer>
