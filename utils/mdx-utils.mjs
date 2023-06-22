@@ -67,7 +67,7 @@ export const getNextPostBySlug = (slug) => {
   // no prev post found
   if (!post) return null;
 
-  const nextPostSlug = post?.filePath.replace(/\.mdx?$/, '');
+  const nextPostSlug = post && post.filePath ? post.filePath.replace(/\.mdx?$/, '') : null;
 
   return {
     title: post.data.title,
@@ -85,7 +85,7 @@ export const getPreviousPostBySlug = (slug) => {
   // no prev post found
   if (!post) return null;
 
-  const previousPostSlug = post?.filePath.replace(/\.mdx?$/, '');
+  const previousPostSlug = post && post.filePath ? post.filePath.replace(/\.mdx?$/, '') : null;
 
   return {
     title: post.data.title,
