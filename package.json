@@ -15,6 +15,7 @@
   "scripts": {
     "dev": "next",
     "dev:watch": "next-remote-watch ./posts",
+    "build:sitemap": "node generateSitemap.js",
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
@@ -32,7 +33,8 @@
     "prismjs": "^1.25.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "remark-gfm": "^3.0.1"
+    "remark-gfm": "^3.0.1",
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
