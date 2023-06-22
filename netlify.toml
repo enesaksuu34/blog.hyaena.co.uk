@@ -1,6 +1,6 @@
 [build]
   command = "npm run build && npm run build:sitemap"
-  publish = ".next"
+  publish = "out"
 
   [build.environment]
     # cache Cypress binary in local "node_modules" folder
