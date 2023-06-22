@@ -6,6 +6,7 @@ export default function SEO({ title, description }) {
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
+      <meta name="google-site-verification" content="BE1E1WedLySO32waPep7Iw7VgIe7kYZiZJRQoX661G0" />
     </Head>
   );
 }
