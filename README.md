@@ -1,4 +1,4 @@
-A customizable blog starter using:
+blog.hyaena.co.uk infrastructure was prepared with Next.js blog template. Technologies used;
 
 - [Next.js](https://github.com/vercel/next.js) v12
 - [Tailwind](https://tailwindcss.com/) v3.0
