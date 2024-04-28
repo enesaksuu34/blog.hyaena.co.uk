@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && npm run build:sitemap"
+  command = "npm run build && npm run build"
   publish = ".next"
 
   [build.environment]
